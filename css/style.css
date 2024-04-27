@@ -1,0 +1,37 @@
+.header_header{ 
+    width: 100vw;
+    top: 0; 
+    height:100vh; 
+    max-height: 500px; 
+    background-image: linear-gradient(
+        to bottom,
+        rgba(248, 248, 248, 0.9),
+        rgb(12, 12, 12, 0.3)), url(../img/header_bg_ariza.png); 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: grey 2px 2px 6px;
+}
+
+.header_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_title-h1{
+    color: var(--color-terciario);
+    text-shadow: #000 2px 1px 2px;
+}
+
+.profile{
+    rotate: -25deg;
+    color: #000;
+    text-shadow: var(--color-terciario) 2px 1px 2px;
+
+}
+
+.main_main{
+    top: 400px;
+}
