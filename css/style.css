@@ -1,7 +1,7 @@
 .header_header{ 
     width: 100vw;
     top: 0; 
-    height:100vh; 
+    height:400px; 
     max-height: 500px; 
     background-image: linear-gradient(
         to bottom,
@@ -12,11 +12,6 @@
     flex-direction: column;
     justify-content: space-between;
     box-shadow: grey 2px 2px 6px;
-}
-
-.header-header{ 
-    position: sticky;
-    top: 0; 
 }
 
 .header_title{
@@ -36,6 +31,12 @@
     text-shadow: var(--color-terciario) 2px 1px 2px;
 }
 
-.main_main{
-    top: 400px;
+nav{
+    height: 100px;
+}
+
+.header_nav{ 
+    position: sticky;
+    top: 0; 
+    left: 0;    
 }
