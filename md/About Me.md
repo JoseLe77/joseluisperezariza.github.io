@@ -1,6 +1,6 @@
 Hola,
 
-Me llamo Jose Luis y soy un profesional con más de 10 años de experiencia en el sector de la logística y la tecnología.
+Me llamo Jose Luis, y soy un profesional con más de 10 años de experiencia en el sector de la logística y la tecnología.
 
 En mi trayectoria profesional he desempeñado diversos roles, desde puestos operativos hasta posiciones de liderazgo, lo que me ha permitido desarrollar una visión integral de la cadena de suministro y una profunda comprensión de las necesidades tecnológicas del sector.
 
