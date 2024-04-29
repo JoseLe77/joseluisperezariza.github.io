@@ -3,12 +3,11 @@
 
 **EMAIL:** josele_perez@outlook.com
 
-**TELÉFONO:** 633 73 70 60
-
 **CARNET DE CONDUCIR:** B1
 
+<br>
 ## FORMACIÓN
-****
+<hr>
 - Bachillerato Cursado en I.E.S. DOMENICO SCARLATTI de Aranjuez (MADRID).
 - OFIMÁTICA, organizado por el CENTRO DE INFORMÁTICA APLICADA ARGON (MADRID).
 - EDICIÓN DE MEDIOS DIGITALES PARA PYMES (2011) CENTRO DE NUEVAS TECNOLOGÍAS de Aranjuez (MADRID).
@@ -17,31 +16,36 @@
 - Programación y Desarrollo WEB en HTML5, CSS3, Javascript y Python3.
 - Resto de Formación realizada de forma autodidacta y/o en formaciones de Empresa.
 
-
+<br>
 ## IDIOMAS / INFORMÁTICA
-****
+<hr>
 - INGLÉS: 6º grado en el Trinity College of London.
 
-
+<br>
 ## EXPERIENCIA LABORAL
-****
+<hr>
 ### DHL (2022-Actualidad)
   &nbsp; **IT Solutions Specialist**
-  - Gestion y configuración de Blueyonder (JDA).
+  - Gestion y configuración de WMS Blueyonder (JDA).
+  - Oracle DB (SQL).
+  - SQL Server (SQL).
+  - Azure DB (SQL).
+  - Creacion de Reportes con Jaspersoft Studio.
+  - Creacion de etiquetas con ZPL.
 
-
+<br>
 ### DHL (2019-2022)
   &nbsp; **Coordinador IT**
-  - Gestión de Blueyonder (JDA), Oracle DB (SQL), Power BI.
+  - Gestión de WMS Blueyonder (JDA).
+  - Oracle DB (SQL).
+  - Power BI.
 
-
-
+<br>
 ### ID LOGISTICS (2016-2019)
   &nbsp; **Supervisor**
   - Gestión y configuración de Sistema WMS INFOLOG, y Liderando los departamentos de Administración y Gestión de Stock.
 
-
-
+<br>
 ### ID LOGISTICS (2012-2016)
   &nbsp; **Administrativo**
   - Departamento de Reingeniería y Procesos.
