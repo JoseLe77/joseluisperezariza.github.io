@@ -1,10 +1,7 @@
-const menu = document.querySelector('.header_nav');
-const menuHeight = menu.offsetHeight;
-
-window.addEventListener('scroll', function() {
-    if (window.scrollY > menuHeight) {
-        menu.classList.add('sticky');
-    } else {
-        menu.classList.remove('sticky');
-    }
+const mycv =document.querySelector('#mycv')
+const md = fetch("https://github.com/JoseLe77/CV/blob/main/Curriculum%20Jose%20Luis%20Perez%20Ariza.md").then((response) => response.text()).then(text=>{
+    const converter = new showdown.Converter()
+    const html = converter.makeHtml(text)
+    mycv.innerHTML = html
 });
+console.log(md)
