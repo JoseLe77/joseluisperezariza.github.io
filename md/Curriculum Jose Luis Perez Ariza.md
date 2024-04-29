@@ -10,7 +10,7 @@
 <hr>
 - Bachillerato Cursado en I.E.S. DOMENICO SCARLATTI de Aranjuez (MADRID).
 - OFIMÁTICA, organizado por el CENTRO DE INFORMÁTICA APLICADA ARGON (MADRID).
-- EDICIÓN DE MEDIOS DIGITALES PARA PYMES (2011) CENTRO DE NUEVAS TECNOLOGÍAS de Aranjuez (MADRID).
+- EDICIÓN DE MEDIOS DIGITALES PARA PYMES - CENTRO DE NUEVAS TECNOLOGÍAS de Aranjuez (MADRID).
 - Microsoft OFFICE: Word, Excel, PowerPoint y Access.
 - Microsoft Power Platform: Power Automate, Power Apps y Power BI.
 - Programación y Desarrollo WEB en HTML5, CSS3, Javascript y Python3.
