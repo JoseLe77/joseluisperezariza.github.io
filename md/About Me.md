@@ -12,7 +12,7 @@ También tengo habilidades en la creación de reportes con Jaspersoft Studio y e
 
 Antes de mi experiencia en DHL, trabajé en ID LOGISTICS, donde comencé como Administrativo en el Departamento de Reingeniería y Procesos. Posteriormente, fui ascendido a Supervisor, donde gestioné y configuré el Sistema WMS INFOLOG y lideré los departamentos de Administración y Gestión de Stock.
 
-Aprovecho para indicar que en ambas compañias participe activamente en arranques de nuevos clientes, traslados y Migraciones de sistema de Gestion de Almacen.
+Aprovecho para indicar que en ambas compañias participe activamente en arranques de almacenes para nuevos clientes, traslados y Migraciones de sistema de Gestion de Almacen.
 
 Soy una persona altamente motivada, con excelentes habilidades de comunicación y trabajo en equipo. Me apasiona la tecnología y su aplicación en la logística para optimizar procesos y mejorar la eficiencia.
 
