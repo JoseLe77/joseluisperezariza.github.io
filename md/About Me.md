@@ -8,7 +8,7 @@ Actualmente trabajo como IT Solutions Specialist en DHL, donde soy responsable d
 
 A lo largo de mi carrera, he adquirido una sólida experiencia en la administración de bases de datos Oracle DB, SQL Server y Azure DB.
 
-También tengo habilidades en la creación de reportes con Jaspersoft Studio y en la creación de etiquetas con ZPL, asi como analisis de negocio con Informes en Power BI.
+También tengo habilidades en la creación de reportes con Jaspersoft Studio y en la creación de etiquetas con lenguaje ZPL, asi como analisis de negocio con Informes en Power BI.
 
 Antes de mi experiencia en DHL, trabajé en ID LOGISTICS, donde comencé como Administrativo en el Departamento de Reingeniería y Procesos. Posteriormente, fui ascendido a Supervisor, donde gestioné y configuré el Sistema WMS INFOLOG y lideré los departamentos de Administración y Gestión de Stock.
 
