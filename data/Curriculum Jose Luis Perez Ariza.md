@@ -24,19 +24,19 @@
 
 ## EXPERIENCIA LABORAL
 
-- **DHL (2022-Actualidad)**
-  - IT Solutions Specialist
+### DHL (2022-Actualidad)
+  **IT Solutions Specialist**
   - Gestion y configuración de Blueyonder (JDA)
 
-- **DHL (2019-2022)**
-  - COORDINADOR IT
+### DHL (2019-2022)
+  **COORDINADOR IT**
   - Gestión de Blueyonder (JDA), Oracle DB (SQL), Power BI .
 
-- **ID LOGISTICS (2016-2019)**
-  - SUPERVISOR
+### ID LOGISTICS (2016-2019)
+  **SUPERVISOR**
   - Gestión y configuración de Sistema WMS INFOLOG, y Liderando los departamentos de Administración y Gestión de Stock.
 
-- **ID LOGISTICS (2012-2016)**
-  - ADMINISTRATIVO
+### ID LOGISTICS (2012-2016)
+  **ADMINISTRATIVO**
   - Departamento de Reingeniería y Procesos.
 
