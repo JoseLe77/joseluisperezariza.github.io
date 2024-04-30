@@ -10,4 +10,19 @@ const mdabout = fetch("md/About Me.md").then((response) => response.text()).then
     const converter = new showdown.Converter()
     const html = converter.makeHtml(text)
     about.innerHTML = html
-});s
+});
+
+const portfolio =document.querySelector('#portfolio')
+const mdportfolio = fetch("md/portfolio.md").then((response) => response.text()).then(text=>{
+    const converter = new showdown.Converter()
+    const html = converter.makeHtml(text)
+    portfolio.innerHTML = html
+});
+
+const aside =document.querySelector('#aside')
+const mdaside = fetch("md/aside.md").then((response) => response.text()).then(text=>{
+    const converter = new showdown.Converter()
+    const html = converter.makeHtml(text)
+    aside.innerHTML = html
+});
+

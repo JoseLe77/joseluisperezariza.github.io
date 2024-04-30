@@ -52,12 +52,13 @@ nav{
     background-color    : #252525;
 }
 
-.footer_footer1{
+.footer_footer1, .footer_footer2 {
     line-height : 2;
+    
 }
 
 .footer_footer2{
-    line-height         : 2;
+  background-color: var(--color-terciario);
 }
 
 .footer_header{
@@ -69,5 +70,19 @@ nav{
 .footer_main{
     padding-left        : 10px; 
     background-color    : #fff; 
-    color               :#000;
+    color               : #000;
+}
+
+.fm2{
+  display         : flex;
+  justify-content : space-around;
+  align-items     : center;
+}
+
+.footer_main-img{
+  height  : 75px; 
+}
+
+.fim2{
+  height  :50px;
 }
