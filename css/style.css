@@ -1,7 +1,6 @@
 .header_header{ 
     width               : 100vw;
-    top                 : 0; 
-    height              :400px; 
+    height              : 400px; 
     max-height          : 500px; 
     background-image    : linear-gradient(
         to bottom,
@@ -32,13 +31,11 @@
 }
 
 nav{
-    height  : 100px;
+    box-shadow  : grey 2px 2px 6px;
 }
 
-.header_nav{ 
-    position    : sticky;
-    top         : 0; 
-    left        : 0;    
+.main-main{
+    margin-top: 100px;
 }
 
 .section_article-header{
@@ -54,11 +51,10 @@ nav{
 
 .footer_footer1, .footer_footer2 {
     line-height : 2;
-    
 }
 
 .footer_footer2{
-  background-color: var(--color-terciario);
+    background-color: var(--color-terciario);
 }
 
 .footer_header{
@@ -74,15 +70,26 @@ nav{
 }
 
 .fm2{
-  display         : flex;
-  justify-content : space-around;
-  align-items     : center;
+    display         : flex;
+    justify-content : space-around;
+    align-items     : center;
 }
 
 .footer_main-img{
-  height  : 75px; 
+    height  : 75px; 
 }
 
 .fim2{
-  height  :50px;
+    height  :50px;
+}
+
+@media screen and (min-width: 1024px) {
+    .header_header{
+        width       : 100%;
+        min-height  : 100vh;
+    }
+    
+    .header_title-h1{
+        font-size   : 130px;
+    }
 }
