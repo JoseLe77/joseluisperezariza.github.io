@@ -83,6 +83,10 @@ nav{
     height  :50px;
 }
 
+.shadows{
+    box-shadow          : grey 2px 4px 7px;
+}
+
 @media screen and (min-width: 1024px) {
     .header_header{
         width       : 100%;
