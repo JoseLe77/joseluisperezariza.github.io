@@ -1,8 +1,6 @@
 # JOSE LUIS PEREZ ARIZA
 ****
 
-**EMAIL:** josele_perez@outlook.com
-
 **CARNET DE CONDUCIR:** B1
 
 <br>
