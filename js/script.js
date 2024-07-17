@@ -27,9 +27,9 @@ const mdaside = fetch("md/aside.md").then((response) => response.text()).then(te
 });
 
 
-const form = document.getElementById('myForm');
+const contact_by_mail = document.getElementById('myForm');
 
-form.addEventListener('submit', (event) => {
+contact_by_mail.addEventListener('click', (event) => {
     event.preventDefault(); // Evita el envío del formulario por defecto
 
     // Aquí puedes personalizar la dirección de correo electrónico y el cuerpo del mensaje
