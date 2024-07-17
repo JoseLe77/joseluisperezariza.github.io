@@ -61,24 +61,6 @@ nav{
     margin: auto;
 }
 
-.mail-button{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.mail{
-    min-width: 100%;
-}
-
-.boton{
-    max-width: 15%;
-    max-height: 100%;
-    line-height: 2;
-}
-
-
 .footer_footer2{
     background-color: var(--color-terciario);
 }
