@@ -26,3 +26,20 @@ const mdaside = fetch("md/aside.md").then((response) => response.text()).then(te
     aside.innerHTML = html
 });
 
+
+const form = document.getElementById('myForm');
+
+form.addEventListener('submit', (event) => {
+    event.preventDefault(); // Evita el envío del formulario por defecto
+
+    const email = form.email.value;
+    const mensaje = form.mensaje.value;
+
+    // Aquí puedes personalizar la dirección de correo electrónico y el cuerpo del mensaje
+    const mailtoLink = `mailto:joseluisperezariza@gmail.com?subject=Enviado desde Portfolio por: ${email}&body=Contacto desde portfolio: ${mensaje}`;
+
+    // Crea un enlace y simúla un clic para abrir el cliente de correo
+    const link = document.createElement('a');
+    link.href = mailtoLink;
+    link.click();
+});

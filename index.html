@@ -55,9 +55,21 @@
                 Contacto:
             </header>
             <main class="footer_main no-margen-superior">
-                Correo: <a href="mailto:joseluisperezariza@gmail.com" target="_blank" style="text-decoration: none;">joseluisperezariza@gmail.com</a>
-                <br>
-                Telefono: Ver con que rellenar este campo
+                <form id="myForm">
+                    <div class="mail-button">
+                        <div class="mail-slot">
+                            <label for="email">Correo electrónico:</label>
+                            <input class="mail" type="email" id="email" name="email" required>
+                        </div>
+                        <button class="boton form-button" type="submit">Enviar</button>
+                    </div>
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                    
+                    
+                </form>
+            
             </main>
         </div>
         <div class="footer_footer2">
