@@ -27,7 +27,7 @@ const mdaside = fetch("md/aside.md").then((response) => response.text()).then(te
 });
 
 
-const contact_by_mail = document.getElementById('myForm');
+const contact_by_mail = document.getElementById('MailME');
 
 contact_by_mail.addEventListener('click', (event) => {
     event.preventDefault(); // Evita el envío del formulario por defecto
