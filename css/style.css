@@ -97,6 +97,11 @@ nav{
     box-shadow          : grey 2px 4px 7px;
 }
 
+.print-button{
+    display: flex;
+    justify-content: flex-end;
+}
+
 @media screen and (min-width: 1024px) {
     .header_header{
         width       : 100%;
