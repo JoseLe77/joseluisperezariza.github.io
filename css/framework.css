@@ -417,6 +417,26 @@ form .input:focus{
 .Enabled{background-color: #E2EFDA; text-align:center;}
 .Disabled{background-color: #FFA3A3; text-align:center;}
 
+@media print {
+    /* Ocultar elementos que no queremos imprimir */
+    .no-print {
+        display: none;
+    }
+
+    /* Estilos para el contenido impreso */
+    body {
+        font-size: 12pt;
+        line-height: 1.6;
+        margin: 10mm;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #000;
+    }
+
+    /* Otros estilos específicos para impresión */
+}
+
 /* -- SATUSES CLASSES --*/
 /* -- Pending status --*/
 .P{background-color: #FFA3A3; text-align:center; line-height:2;}
