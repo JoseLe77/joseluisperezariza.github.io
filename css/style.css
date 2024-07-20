@@ -98,8 +98,29 @@ nav{
 }
 
 .print-button{
-    display: flex;
-    justify-content: flex-end;
+    display         : flex;
+    justify-content : flex-end;
+}
+
+.tech_pictures{
+    height      : 100px; 
+    width       : 100px; 
+    object-fit  : cover;
+}
+
+.tech_pictures2{
+    height      : 45%; 
+    width       : 50%; 
+    object-fit  : scale-down;
+}
+
+.tech_pict{
+    display             : flex;
+    flex-direction      : row;
+    justify-content     : space-around;
+    align-items: center;
+    flex-wrap           : wrap;
+
 }
 
 @media screen and (min-width: 1024px) {
