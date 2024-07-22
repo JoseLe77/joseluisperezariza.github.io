@@ -121,6 +121,7 @@ nav{
     align-items         : center;
     flex-wrap           : wrap;
     gap:                : 50px 50px;
+    min-height          : 500px;
     & img{
         padding-bottom: 10px;
     }
