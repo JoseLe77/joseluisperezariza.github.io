@@ -2,9 +2,12 @@ Estas son las tecnologias con las que trabajo y/o realizo proyectos.
 
 ### Desarrollo de aplicaciones
 
-**HTML5**, **CSS3** y **Javascript** - creacion de Paginas WEB.
-**Python3**  - desarrollo de Paginas WEB Mediante el Framework FLASK.
-             - desarrollo de aplicaciones con diferentes Frameworks: TKinter, Turtle, etc..
+>**HTML5**, **CSS3** y **Javascript**
+>- creacion de Paginas WEB.
+>
+>**Python3**  
+>- desarrollo de Paginas WEB Mediante el Framework FLASK.
+>- desarrollo de aplicaciones con diferentes Frameworks: TKinter o Turtle, aparte de otros privados.
 
 ### Administracion de Bases de datos SQL.
 
