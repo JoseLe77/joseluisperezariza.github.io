@@ -109,8 +109,8 @@ nav{
 }
 
 .tech_pictures2{
-    height      : 45%; 
-    width       : 50%; 
+    height      : 190px; 
+    width       : 190px; 
     object-fit  : scale-down;
 }
 
@@ -118,7 +118,7 @@ nav{
     display             : flex;
     flex-direction      : row;
     justify-content     : space-around;
-    align-items: center;
+    align-items         : center;
     flex-wrap           : wrap;
 
 }
