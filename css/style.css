@@ -109,8 +109,8 @@ nav{
 }
 
 .tech_pictures2{
-    height      : 45%; 
-    width       : 50%; 
+    height      : 50%; 
+    width       : 45%; 
     object-fit  : scale-down;
 }
 
@@ -120,7 +120,6 @@ nav{
     justify-content     : space-around;
     align-items         : center;
     flex-wrap           : wrap;
-
 }
 
 @media screen and (min-width: 1024px) {
