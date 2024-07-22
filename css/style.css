@@ -121,7 +121,11 @@ nav{
     align-items         : center;
     flex-wrap           : wrap;
     gap:                : 50px 50px;
+    & img{
+        padding-bottom: 10px;
+    }
 }
+
 
 @media screen and (min-width: 1024px) {
     .header_header{
