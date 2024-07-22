@@ -49,7 +49,8 @@ nav{
     background-color    : #252525;
 }
 
-.footer_footer1, .footer_footer2 {
+.footer_footer1,
+.footer_footer2 {
     line-height : 2;
     min-height: 150px;
 }
