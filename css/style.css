@@ -102,6 +102,10 @@ nav{
     justify-content : flex-end;
 }
 
+.mytech{
+    min-height  : 500px;
+}
+
 .tech_pictures{
     height      : 100px; 
     width       : 100px; 
@@ -120,8 +124,7 @@ nav{
     justify-content     : space-around;
     align-items         : center;
     flex-wrap           : wrap;
-    gap:                : 50px 50px;
-    min-height          : 500px;
+    gap                 : 50px 50px;
     & img{
         padding-bottom: 10px;
     }
