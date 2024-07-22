@@ -111,7 +111,7 @@ nav{
 .tech_pictures2{
     height      : 190px; 
     width       : 190px; 
-    object-fit  : scale-down;
+    object-fit  : cover;
 }
 
 .tech_pict{
