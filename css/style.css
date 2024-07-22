@@ -109,8 +109,8 @@ nav{
 }
 
 .tech_pictures2{
-    height      : 50%; 
-    width       : 45%; 
+    height      : 185px; 
+    width       : 190px; 
     object-fit  : scale-down;
 }
 
@@ -130,5 +130,11 @@ nav{
     
     .header_title-h1{
         font-size   : 130px;
+    }
+    
+    .tech_pictures2{
+        height      : 50%; 
+        width       : 45%; 
+        object-fit  : scale-down;
     }
 }
