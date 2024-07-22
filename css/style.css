@@ -132,10 +132,4 @@ nav{
     .header_title-h1{
         font-size   : 130px;
     }
-    
-    .tech_pictures2{
-        height      : 95%; 
-        width       : 50%; 
-        object-fit  : cover;
-    }
 }
