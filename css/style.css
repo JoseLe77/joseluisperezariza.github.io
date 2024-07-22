@@ -116,7 +116,7 @@ nav{
 
 .tech_pict{
     display             : flex;
-    flex-direction      : row;
+    flex-direction      : column;
     justify-content     : space-around;
     align-items         : center;
     flex-wrap           : wrap;
@@ -137,5 +137,14 @@ nav{
         height      : 50%; 
         width       : 45%; 
         object-fit  : scale-down;
+    }
+
+    .tech_pict{
+        display             : flex;
+        flex-direction      : row;
+        justify-content     : space-around;
+        align-items         : center;
+        flex-wrap           : wrap;
+        gap:                : 50px 50px;
     }
 }
