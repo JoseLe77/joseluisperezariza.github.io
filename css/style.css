@@ -49,14 +49,15 @@ nav{
     background-color    : #252525;
 }
 
-.footer_footer1,
-.footer_footer2 {
+.footer_footer1{
     line-height : 2;
-    min-height: 150px;
+    height: 150px;
 }
 
 .footer_footer2{
     background-color: var(--color-terciario);
+    line-height : 2;
+    height: 150px;
 }
 
 .footer_header{
