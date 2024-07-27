@@ -9,11 +9,11 @@
 </head>
 <body>
     <header class="header_header card no-padding no-print">
-        <div class="header_title contenedor-ancho">
-            <h1 class="header_title-h1 display-1">Jose Luis <br> Perez Ariza</h1>
+        <div class="header_title contenedor-ancho no-print">
+            <h1 class="header_title-h1 display-1 no-print">Jose Luis <br> Perez Ariza</h1>
             <!--<p class ="profile display-5">My Profile</p>-->
         </div>
-        <nav class="header_nav menu menu-centro">
+        <nav class="header_nav menu menu-centro no-print">
             <ul>
                 <li><a href="#about">Acerca de mi</a></li>
                 <li><a href="#cv">C. Vitae</a></li>
@@ -24,41 +24,41 @@
     </header>
     <main class="main_main contenedor-ancho">
         <section class="section">
-            <div class="grid col-2 med-col-1 peq-col-1">
+            <div class="grid col-2 med-col-1 peq-col-1 to-print">
                 <article class="section_article card margen-inferior" id="about">
                     <header class="section_article-header contenedor-ancho texto-centrado shadows no-print">
                         Acerca de mi
                     </header>
-                    <div id="aboutme"></div>
+                    <div id="aboutme" class="page"></div>
                 </article>
                 <article class="section_article card margen-inferior" id="cv">
-                    <header class="section_article-header contenedor-ancho texto-centrado shadows">
+                    <header class="section_article-header contenedor-ancho texto-centrado shadows no-print">
                         Mi C. Vitae
                     </header>
-                    <a href="javascript:window.print()" class="print-button no-print"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M640-640v-120H320v120h-80v-200h480v200h-80Zm-480 80h640-640Zm560 100q17 0 28.5-11.5T760-500q0-17-11.5-28.5T720-540q-17 0-28.5 11.5T680-500q0 17 11.5 28.5T720-460Zm-80 260v-160H320v160h320Zm80 80H240v-160H80v-240q0-51 35-85.5t85-34.5h560q51 0 85.5 34.5T880-520v240H720v160Zm80-240v-160q0-17-11.5-28.5T760-560H200q-17 0-28.5 11.5T160-520v160h80v-80h480v80h80Z"/></svg></a>
-                    <div id="mycv"></div>
+                    <a href="javascript:window.print()" class="print-button"><svg class="no-print" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M640-640v-120H320v120h-80v-200h480v200h-80Zm-480 80h640-640Zm560 100q17 0 28.5-11.5T760-500q0-17-11.5-28.5T720-540q-17 0-28.5 11.5T680-500q0 17 11.5 28.5T720-460Zm-80 260v-160H320v160h320Zm80 80H240v-160H80v-240q0-51 35-85.5t85-34.5h560q51 0 85.5 34.5T880-520v240H720v160Zm80-240v-160q0-17-11.5-28.5T760-560H200q-17 0-28.5 11.5T160-520v160h80v-80h480v80h80Z"/></svg></a>
+                    <div id="mycv" class="page"></div>
                 </article>
             </div>
-            <article class="section_article card margen-inferior" id="technologies">
+            <article class="section_article card margen-inferior no-print" id="technologies">
                 <header class="section_article-header contenedor-ancho texto-centrado shadows">
                     Tecnologias
                 </header>
                 <div id="mytechnologies"></div>
                 <div class="mytech grid col-4 med-col-2 peq-col-1">
-                    <div class="languages card tech_pict">
+                    <div class="languages card tech_pict grid col-3 med-col-2 peq-col-1">
                         <img src="img/Technologies/html5.png" alt="HTML5" class="tech_pictures">
                         <img src="img/Technologies/css3.png" alt="CSS3" class="tech_pictures">
                         <img src="img/Technologies/js.png" alt="JavaScrit" class="tech_pictures">
                         <img src="img/Technologies/python-logo.png" alt="Python3" class="tech_pictures">
                     </div>
-                    <div class="database card tech_pict">
+                    <div class="database card tech_pict grid col-3 med-col-2 peq-col-1">
                         <img src="img/Technologies/azure.png" alt="SQL Azure" class="tech_pictures2">
                         <img src="img/Technologies/sqlServer2.png" alt="SQL Server" class="tech_pictures2">
                         <img src="img/Technologies/oracle-data-modeler-logo-1.jpg" alt="ORACLE SQL" class="tech_pictures2">
                         <img src="img/Technologies/mysql.jpeg" alt="MY SQL" class="tech_pictures">
                         <!-- <img src="img/Technologies/sqlite.png" alt="SQLite" class="tech_pictures">-->
                     </div>
-                    <div class="apps card tech_pict">
+                    <div class="apps card tech_pict grid col-3 med-col-2 peq-col-1">
                         <img src="img/Technologies/office365.png" alt="office365" class="tech_pictures">
                         <img src="img/Technologies/power bi.png" alt="Power BI" class="tech_pictures">
                         <img src="img/Technologies/power automate.png" alt="Power Automate" class="tech_pictures">
