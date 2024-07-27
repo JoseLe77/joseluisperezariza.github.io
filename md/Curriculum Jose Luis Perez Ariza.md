@@ -10,12 +10,10 @@
 - Microsoft Power Platform: Power Automate, Power Apps y Power BI.
 - Programación y Desarrollo WEB en HTML5, CSS3, Javascript y Python3.
 - Resto de Formación realizada de forma autodidacta y/o en formaciones de Empresa.
-
 <br>
 ## IDIOMAS
 <hr>
 - INGLÉS: 6º grado en el Trinity College of London.
-
 <br>
 ## EXPERIENCIA LABORAL
 <hr>
