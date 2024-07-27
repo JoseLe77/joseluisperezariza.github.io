@@ -15,6 +15,7 @@ Estas son las tecnologias con las que trabajo y/o realizo proyectos.
 
 ### Sitemas de Gestion de Almacen (SGA o WMS)
 > **Infolog** 
+>
 >- Sistema de Gestion de Almacen creado por Generix Group y con AS400 como base de datos.
 >
 > **BlueYonder** 
