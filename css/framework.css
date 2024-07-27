@@ -427,7 +427,7 @@ form .input:focus{
     
     .page {
         font-size       : 10pt;
-        line-height     : 0.25;
+        line-height     : 0.5;
         margin          : 0;
         border          : initial;
         border-radius   : initial;
