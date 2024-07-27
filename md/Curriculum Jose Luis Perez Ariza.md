@@ -21,39 +21,27 @@
 <hr>
 ### DHL (2022-Actualidad)
   &nbsp; **IT Solutions Specialist**
-
     - Gestion y configuración de WMS Blueyonder (JDA).
-
     - Oracle DB (SQL).
-
     - SQL Server (SQL).
-
     - Azure DB (SQL).
-
     - Creacion de Reportes con Jaspersoft Studio.
-
     - Creacion de etiquetas con ZPL.
-
 
 <br>
 ### DHL (2019-2022)
   &nbsp; **Coordinador IT**
     - Gestión de WMS Blueyonder (JDA).
-
     - Oracle DB (SQL).
-
     - Power BI.
-
     
   <br>
 ### ID LOGISTICS (2016-2019)
   &nbsp; **Supervisor**
-
     - Gestión y configuración de Sistema WMS INFOLOG, y Liderando los departamentos de Administración y Gestión de Stock.
 
 <br>
 ### ID LOGISTICS (2012-2016)
   &nbsp; **Administrativo**
-  
     - Departamento de Reingeniería y Procesos.
   
