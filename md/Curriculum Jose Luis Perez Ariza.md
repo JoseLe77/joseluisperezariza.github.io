@@ -1,7 +1,6 @@
 # JOSE LUIS PEREZ ARIZA
 ****
-
-**CARNET DE CONDUCIR:** B1
+<!-- **CARNET DE CONDUCIR:** B1 -->
 <br>
 ## FORMACIÓN
 <hr>
