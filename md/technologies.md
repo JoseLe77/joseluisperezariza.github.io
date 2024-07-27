@@ -18,4 +18,5 @@ Estas son las tecnologias con las que trabajo y/o realizo proyectos.
 >- Sistema de Gestion de Almacen creado por Generix Group y con AS400 como base de datos.
 >
 >**BlueYonder**
->-Sistema de Gestion de Almacen, Antiguo JDA, Muy completocon base de datos en Oracle.
+>-Sistema de Gestion de Almacen, Antiguo JDA, con base de datos en Oracle.
+>
