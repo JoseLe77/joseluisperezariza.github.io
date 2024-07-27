@@ -1,6 +1,6 @@
 # JOSE LUIS PEREZ ARIZA
+<hr>
 <!-- **CARNET DE CONDUCIR:** B1 -->
-<br>
 ## FORMACIÓN
 <hr>
 - Bachillerato Cursado en I.E.S. DOMENICO SCARLATTI de Aranjuez (MADRID).
