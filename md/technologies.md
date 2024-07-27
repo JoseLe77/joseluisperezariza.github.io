@@ -12,3 +12,10 @@ Estas son las tecnologias con las que trabajo y/o realizo proyectos.
 ### Administracion de Bases de datos SQL.
 
 ### Aplicativos enfocados a la automatizacion, creacion de aplicaciones y reporting, asi como analisis de datos.
+
+### Sitemas de Gestion de Almacen (SGA o WMS)
+> **Infolog** 
+>- Sistema de Gestion de Almacen creado por Generix Group y con AS400 como base de datos.
+>
+>**BlueYonder**
+>-Sistema de Gestion de Almacen, Antiguo JDA, con base de datos en Oracle.
