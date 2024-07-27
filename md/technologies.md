@@ -17,6 +17,7 @@ Estas son las tecnologias con las que trabajo y/o realizo proyectos.
 > **Infolog** 
 >- Sistema de Gestion de Almacen creado por Generix Group y con AS400 como base de datos.
 >
->**BlueYonder**
-> -Sistema de Gestion de Almacen, Antiguo JDA, con base de datos en Oracle.
+> **BlueYonder** 
+>- Completo Sistema de Gestion de Almacen, Anteriormente conocido como JDA, con base de datos en Oracle.
 >
+
