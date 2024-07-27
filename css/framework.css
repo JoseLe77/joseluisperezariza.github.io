@@ -421,20 +421,7 @@ form .input:focus{
     /* Ocultar elementos que no queremos imprimir */
     .no-print {
         display: none;
-    }
-
-    /* Estilos para el contenido impreso */
-    body {
-        font-size: 12pt;
-        line-height: 1.6;
-        margin: 10mm;
-    }
-
-    h1, h2, h3, h4, h5, h6 {
-        color: #000;
-    }
-
-    /* Otros estilos específicos para impresión */
+    }    
 }
 
 /* -- SATUSES CLASSES --*/
