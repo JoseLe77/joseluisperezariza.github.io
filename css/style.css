@@ -109,9 +109,9 @@ nav{
 }
 
 .tech_pictures2{
-    height      : 185px; 
-    width       : 190px; 
-    object-fit  : scale-down;
+    height      : 150px; 
+    width       : 100px; 
+    object-fit  : cover;
 }
 
 .tech_pict{
