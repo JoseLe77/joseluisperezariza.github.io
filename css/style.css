@@ -155,7 +155,10 @@ nav{
 /* Otros estilos específicos para impresión */
 @media print{
      /* Estilos para el contenido impreso */
-
+    body{
+        background: #fff;
+    }
+    
     .header_header{ 
         width     : 0px;
         height    : 0px; 
