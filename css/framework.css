@@ -418,6 +418,9 @@ form .input:focus{
 .Enabled{background-color: #E2EFDA; text-align:center;}
 .Disabled{background-color: #FFA3A3; text-align:center;}
 
+.hidden-show{
+    display: none;
+}
 
 @page {
     size: A4;
@@ -432,6 +435,7 @@ form .input:focus{
     }
     
     .page {
+        display         : block;
         font-size       : 10pt;
         line-height     : 1.5;
         margin          : 0;
@@ -446,6 +450,10 @@ form .input:focus{
     
     .no-break{
         page-break-inside: avoid;
+    }
+
+    .hidden-show{
+        display  : block;
     }
 
     h1, h2, h3, h4, h5, h6 {
