@@ -1,6 +1,7 @@
 # JOSE LUIS PEREZ ARIZA
-<!-- **** -->
-<br>
+<!-- **** 
+<br> -->
+
 ## FORMACIÓN
 <hr>
 - Bachillerato Cursado en I.E.S. DOMENICO SCARLATTI de Aranjuez (MADRID).
