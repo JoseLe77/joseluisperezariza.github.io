@@ -40,4 +40,3 @@
 ### ID LOGISTICS (2012-2016)
   &nbsp; **Administrativo**
   - Departamento de Reingeniería y Procesos.
-  
