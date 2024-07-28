@@ -1,5 +1,5 @@
 # JOSE LUIS PEREZ ARIZA
-****
+<!-- **** -->
 <br>
 ## FORMACIÓN
 <hr>
