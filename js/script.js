@@ -6,7 +6,7 @@ const mdcv = fetch("md/Curriculum Jose Luis Perez Ariza.md").then((response) => 
 });
 
 const mycv2print =document.querySelector('#mycv2print')
-const mdcv2print = fetch("md/Curriculum Jose Luis Perez Ariza to print.md").then((response) => response.text()).then(text=>{
+const mdcv2print = fetch("md/Jose Luis Perez Ariza Curriculum to print.md").then((response) => response.text()).then(text=>{
     const converter = new showdown.Converter()
     const html = converter.makeHtml(text)
     mycv2print.innerHTML = html
