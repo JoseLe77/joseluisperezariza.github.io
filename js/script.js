@@ -26,35 +26,12 @@ const mdportfolio = fetch("md/technologies.md").then((response) => response.text
     portfolio.innerHTML = html
 });
 
-const aside = document.querySelector('#aside');
 
-<<<<<<< HEAD
-fetch('json/aside_sentences.json') // Ajusta la ruta si es necesario
-.then(response => {
-    if (!response.ok) {
-        throw new Error('Error al obtener el archivo JSON');
-    }
-    return response.json();
-})
-.then(data => {
-    const today = new Date().toLocaleDateString('en-US', { weekday: 'long' }).toLowerCase();
-    const frase = data.frases[today] || "No hay frase para este día.";
-
-    const converter = new showdown.Converter();
-    const html = converter.makeHtml(frase);
-    aside.innerHTML = html;
-})
-.catch(error => {
-    console.error('Error:', error);
-    aside.textContent = 'No se pudo cargar la frase. Por favor, verifica la consola para más detalles.';
-=======
 const aside =document.querySelector('#aside')
 const mdaside = fetch("md/aside.md").then((response) => response.text()).then(text=>{
     const converter = new showdown.Converter()
     const html = converter.makeHtml(text)
     aside.innerHTML = html
->>>>>>> parent of 5b0dd9a (Json Sentences)
->>>>>>> parent of 23f416b (Update script.js)
 });
 
 
