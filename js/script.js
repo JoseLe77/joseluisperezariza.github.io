@@ -26,11 +26,15 @@ const mdportfolio = fetch("md/technologies.md").then((response) => response.text
     portfolio.innerHTML = html
 });
 
-
 const aside =document.querySelector('#aside')
-const mdaside = fetch("md/aside.md").then((response) => response.text()).then(text=>{
+const json_aside = fetch("json/aside_sentences.json")
+.then((response) => response.json())
+.then(data=>{
+    const today = new Date().toLocaleDateString('en-US', { weekday: 'long' }).toLowerCase();
+    const fraseDiv = document.getElementById('#aside');
+    fraseDiv.textContent = data.frases[today] || "No hay frase para este día.";
     const converter = new showdown.Converter()
-    const html = converter.makeHtml(text)
+    const html = converter.makeHtml(fraseDiv)
     aside.innerHTML = html
 });
 
