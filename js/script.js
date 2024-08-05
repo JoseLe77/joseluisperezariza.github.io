@@ -26,7 +26,6 @@ const mdportfolio = fetch("md/technologies.md").then((response) => response.text
     portfolio.innerHTML = html
 });
 
-
 const aside =document.querySelector('#aside')
 const mdaside = fetch("md/aside.md").then((response) => response.text()).then(text=>{
     const converter = new showdown.Converter()
