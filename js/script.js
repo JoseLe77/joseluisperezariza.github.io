@@ -32,7 +32,6 @@ const mdaside = fetch("md/aside.md").then((response) => response.text()).then(te
     const converter = new showdown.Converter()
     const html = converter.makeHtml(text)
     aside.innerHTML = html
->>>>>>> parent of 5b0dd9a (Json Sentences)
 });
 
 
