@@ -26,16 +26,26 @@ const mdportfolio = fetch("md/technologies.md").then((response) => response.text
     portfolio.innerHTML = html
 });
 
-const aside =document.querySelector('#aside')
-const json_aside = fetch("json/aside_sentences.json")
-.then((response) => response.json())
-.then(data=>{
+const aside = document.querySelector('#aside');
+
+fetch('json/aside_sentences.json') // Ajusta la ruta si es necesario
+.then(response => {
+    if (!response.ok) {
+        throw new Error('Error al obtener el archivo JSON');
+    }
+    return response.json();
+})
+.then(data => {
     const today = new Date().toLocaleDateString('en-US', { weekday: 'long' }).toLowerCase();
-    const fraseDiv = document.getElementById('#aside');
-    fraseDiv.textContent = data.frases[today] || "No hay frase para este día.";
-    const converter = new showdown.Converter()
-    const html = converter.makeHtml(fraseDiv)
-    aside.innerHTML = html
+    const frase = data.frases[today] || "No hay frase para este día.";
+
+    const converter = new showdown.Converter();
+    const html = converter.makeHtml(frase);
+    aside.innerHTML = html;
+})
+.catch(error => {
+    console.error('Error:', error);
+    aside.textContent = 'No se pudo cargar la frase. Por favor, verifica la consola para más detalles.';
 });
 
 
