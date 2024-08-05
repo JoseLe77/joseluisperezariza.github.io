@@ -26,16 +26,13 @@ const mdportfolio = fetch("md/technologies.md").then((response) => response.text
     portfolio.innerHTML = html
 });
 
+
 const aside =document.querySelector('#aside')
-const json_aside = fetch("json/aside_sentences.json")
-.then((response) => response.json())
-.then(data=>{
-    const today = new Date().toLocaleDateString('en-US', { weekday: 'long' }).toLowerCase();
-    const fraseDiv = document.getElementById('#aside');
-    fraseDiv.textContent = data.frases[today] || "No hay frase para este día.";
+const mdaside = fetch("md/aside.md").then((response) => response.text()).then(text=>{
     const converter = new showdown.Converter()
-    const html = converter.makeHtml(fraseDiv)
+    const html = converter.makeHtml(text)
     aside.innerHTML = html
+>>>>>>> parent of 5b0dd9a (Json Sentences)
 });
 
 
