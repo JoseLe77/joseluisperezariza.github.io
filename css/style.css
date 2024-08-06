@@ -172,8 +172,8 @@ nav{
     .to-print{
         display         : flex;
         flex-direction  : column;
-
+        heigth          : 100%;
     }
 
-
+}
 }
