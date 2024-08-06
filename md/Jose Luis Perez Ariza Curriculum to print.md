@@ -5,7 +5,7 @@
 <br> -->
 
 ### FORMACIÓN
-<hr>
+<!-- <hr> -->
 - Bachillerato Cursado en I.E.S. DOMENICO SCARLATTI de Aranjuez (MADRID).
 - OFIMÁTICA, organizado por el CENTRO DE INFORMÁTICA APLICADA ARGON (MADRID).
 - Edición de Medios Digitales para PYMES - CENTRO DE NUEVAS TECNOLOGÍAS de Aranjuez (MADRID).
@@ -15,11 +15,11 @@
 - Resto de Formación realizada de forma autodidacta y/o en formaciones de Empresa.
 <br>
 ### IDIOMAS
-<hr>
+<!-- <hr> -->
 - INGLÉS: 6º grado en el Trinity College of London.
 <br>
 ### EXPERIENCIA LABORAL
-<hr>
+<!-- <hr> -->
 #### DHL (2022-Actualidad)
   &nbsp; **IT Solutions Specialist**
   - Gestion y configuración de WMS Blueyonder (JDA).
