@@ -173,7 +173,7 @@ nav{
         display         : flex;
         flex-direction  : column;
         align-items     : center;
-        heigth          : 100%;
+        height          : 100%;
     }
 
 }
