@@ -45,11 +45,6 @@ nav{
     font-weight         : bold;
 }
 
-#aside p{
-    display: flex;
-    justify-content: space-around;
-}
-
 .footer-footer{
     background-color    : #252525;
 }
