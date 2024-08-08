@@ -34,6 +34,10 @@ nav{
     box-shadow  : grey 2px 2px 6px;
 }
 
+.hide_menu_option{
+    display: none;
+}
+
 .main-main{
     margin-top: 100px;
 }
@@ -126,7 +130,9 @@ nav{
         font-size   : 130px;
     }
 
-
+    .hide_menu_option{
+        display: block;
+    }
     
     .tech_pictures2{
         width       : 90%;
