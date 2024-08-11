@@ -422,9 +422,6 @@ form .input:focus{
     display: none;
 }
 
-.show-hidden{
-    display: block;
-}
 
 @page {
     size: A4;

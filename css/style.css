@@ -38,6 +38,10 @@ nav{
     display: none;
 }
 
+.show-hidden{
+    display: block;
+}
+
 .main-main{
     margin-top: 100px;
 }
