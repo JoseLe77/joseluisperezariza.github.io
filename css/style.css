@@ -133,6 +133,10 @@ nav{
     .hide_menu_option{
         display: block;
     }
+
+    .show-hidden{
+        display: none;
+    }
     
     .tech_pictures2{
         width       : 90%;
