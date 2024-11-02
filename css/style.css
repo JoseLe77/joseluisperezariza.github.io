@@ -30,9 +30,18 @@
     text-shadow : var(--color-terciario) 2px 1px 2px;
 }
 
+#language-image{
+    border: 1px solid black;
+    box-shadow: 3px 4px 5px grey;
+}
+
 nav{
     box-shadow  : grey 2px 2px 6px;
 }
+
+.contenido_EN {
+    display: none;
+  }
 
 .hide_menu_option{
     display: none;
@@ -122,6 +131,10 @@ nav{
     width       : 95%; 
     object-fit  : scale-down;
 }
+
+.contenido_EN {
+    display: none;
+  }
 
 
 @media screen and (min-width: 1024px) {

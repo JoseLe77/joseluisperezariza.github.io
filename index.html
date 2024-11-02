@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="css/framework.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body> 
     <header class="header_header card no-padding no-print">
         <div class="header_title contenedor-ancho no-print">
             <h1 class="header_title-h1 display-1 no-print">Jose Luis <br> Perez Ariza</h1>
+            <!--<button id="language-toggle">Cambiar idioma</button>-->
             <!--<p class ="profile display-5">My Profile</p>-->
         </div>
-        <nav class="header_nav menu menu-centro no-print">
+        <div id="language-toggle" class="padding-derecha" style="display: flex; justify-content: flex-end;"><img id="language-image" src="img/languages/gb.webp" alt="Imagen de idioma" style="width: 50px; height: 30px;"></div>
+        <nav class="contenido_ES header_nav menu menu-centro no-print">
             <ul>
                 <li class="hide_menu_option"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg></a></li>
                 <li class="hide_menu_option"><a href="#about">Acerca de mi</a></li>
@@ -23,13 +25,23 @@
                 <li><a href="#" id="MailME">Contactar</a></li>
             </ul> 
         </nav>
+        <nav class="contenido_EN header_nav menu menu-centro no-print" style="display: none">
+            <ul style="display:flex;">
+                <li class="hide_menu_option"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg></a></li>
+                <li class="hide_menu_option"><a href="#about">About me</a></li>
+                <li class="hide_menu_option"><a href="#cv">C. Vitae</a></li>
+                <li class="show-hidden"><a href="#cv">CV</a></li>
+                <li><a href="#technologies">Technologies</a></li>
+                <li><a href="#" id="MailME">Contact Me</a></li>
+            </ul> 
+        </nav>
     </header>
-    <main class="main_main contenedor-ancho">
+    <main class="main_main contenedor-ancho contenido_ES">
         <section class="section">
             <div class="grid col-2 med-col-1 peq-col-1 to-print">
                 <article class="section_article card margen-inferior" id="about">
                     <header class="section_article-header contenedor-ancho texto-centrado shadows no-print">
-                        Acerca de mi
+                        Acerca de mi  
                     </header>
                     <div id="aboutme" class="page"></div>
                 </article>
@@ -74,24 +86,97 @@
                     </div>
                 </div>
             </article>
-        </section>   
+        </section>
         <aside class="aside contenedor texto-centrado no-print">
             <div id="aside"></div>
         </aside>
     </main>
+    <main class="main_main contenedor-ancho contenido_EN" style="display: none;">
+        <section class="section">
+            <div class="grid col-2 med-col-1 peq-col-1 to-print">
+                <article class="section_article card margen-inferior" id="about">
+                    <header class="section_article-header contenedor-ancho texto-centrado shadows no-print">
+                        About me  
+                    </header>
+                    <div id="aboutme_EN" class="page"></div>
+                </article>
+                <article class="section_article card margen-inferior" id="cv">
+                    <header class="section_article-header contenedor-ancho texto-centrado shadows no-print">
+                        My C. Vitae
+                    </header>
+                    <a href="javascript:window.print()" class="print-button"><svg class="no-print" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M640-640v-120H320v120h-80v-200h480v200h-80Zm-480 80h640-640Zm560 100q17 0 28.5-11.5T760-500q0-17-11.5-28.5T720-540q-17 0-28.5 11.5T680-500q0 17 11.5 28.5T720-460Zm-80 260v-160H320v160h320Zm80 80H240v-160H80v-240q0-51 35-85.5t85-34.5h560q51 0 85.5 34.5T880-520v240H720v160Zm80-240v-160q0-17-11.5-28.5T760-560H200q-17 0-28.5 11.5T160-520v160h80v-80h480v80h80Z"/></svg></a>
+                    <div id="mycv_EN" class="no-print"></div>
+                    <div id="mycv2print_EN" class="hidden-show page no-break"></div>
+                </article>
+            </div>
+            <article class="section_article card margen-inferior no-print" id="technologies">
+                <header class="section_article-header contenedor-ancho texto-centrado shadows">
+                    Technologies
+                </header>
+                <div id="mytechnologies_EN"></div>
+                <div class="mytech grid col-4 med-col-2 peq-col-1">
+                    <div class="languages card tech_pict grid col-2 med-col-2 peq-col-1">
+                        <img src="img/Technologies/html5.png" alt="HTML5" class="tech_pictures">
+                        <img src="img/Technologies/css3.png" alt="CSS3" class="tech_pictures">
+                        <img src="img/Technologies/js.png" alt="JavaScrit" class="tech_pictures">
+                        <img src="img/Technologies/python-logo.png" alt="Python3" class="tech_pictures">
+                    </div>
+                    <div class="database card tech_pict grid col-2 med-col-2 peq-col-1">
+                        <img src="img/Technologies/azure.png" alt="SQL Azure" class="tech_pictures2">
+                        <img src="img/Technologies/sqlServer2.png" alt="SQL Server" class="tech_pictures2">
+                        <img src="img/Technologies/oracle-data-modeler-logo-1.jpg" alt="ORACLE SQL" class="tech_pictures2">
+                        <img src="img/Technologies/mysql.jpeg" alt="MY SQL" class="tech_pictures">
+                        <!-- <img src="img/Technologies/sqlite.png" alt="SQLite" class="tech_pictures"> -->
+                    </div>
+                    <div class="apps card tech_pict grid col-2 med-col-2 peq-col-1">
+                        <img src="img/Technologies/office365.png" alt="office365" class="tech_pictures">
+                        <img src="img/Technologies/power bi.png" alt="Power BI" class="tech_pictures">
+                        <img src="img/Technologies/power automate.png" alt="Power Automate" class="tech_pictures">
+                        <img src="img/Technologies/powerapps.png" alt="Power Apps" class="tech_pictures">
+                    </div>
+                    <div class="wms card tech_pict grid col-1 med-col-1 peq-col-1">
+                        <img src="img/Technologies/Blue_Yonder.png" alt="BlueYonder" class="tech_pictures2">
+                        <img src="img/Technologies/infolog-logo.png" alt="Infolog" class="tech_pictures2">
+                        <!-- <img src="img/Technologies/jaspersoft.jpg" alt="jaspersoft Studio" class="tech_pictures2"> -->
+                    </div>
+                </div>
+            </article>
+        </section>
+        <aside class="aside contenedor texto-centrado no-print">
+            <div id="aside_EN"></div>
+        </aside>
+    </main>
     <footer class="footer-footer footer-abajo card grid peq-col-1 med-col-1 col-2 no-margen-inferior no-print">
-        <div class="footer_footer1">
+        <div class="footer_footer1 contenido_ES">
             <header class="footer_header no-margen-inferior">
-                Empresas en las que he trabajado:
+                Empresas en las que he trabajado:       
             </header>
             <main class="footer_main fm2 no-padding-superior grid peq-col-1 med-col-2 col-2">
                 <a href="https://www.dhl.com/es-es/home/supply-chain.html" target="_blank"><img class="footer_main-img fim2" src="img/Companies/Dhl_logo.png" alt="DHL"></a>
                 <a href="https://www.id-logistics.com/es/" target="_blank"><img class="footer_main-img fim2" src="img/Companies/IDLogistics.jpeg" alt="Infolog"></a>
             </main>
         </div>
-        <div class="footer_footer2">
+        <div class="footer_footer2 contenido_ES">
             <header class="footer_header no-margen-inferior">
                 Visite mis perfiles:
+            </header>
+            <main class="footer_main fm2 no-padding-superior grid peq-col-1 med-col-2 col-2">
+                <a href="https://www.linkedin.com/in/jose-luis-perez-ariza-a14b4944/" target="_blank"><img class="footer_main-img" src="img/Linkedin-Logo-2003_1.png" alt="LinkedIn"></a>
+                <a href="https://github.com/JoseLe77" target="_blank"><img class="footer_main-img fim2" src="img/Github.png" alt="GitHub"></a>
+            </main>
+        </div>
+        <div class="footer_footer1 contenido_EN" style="display: none;">
+            <header class="footer_header no-margen-inferior">
+                Companies I worked to:               
+            </header>
+            <main class="footer_main fm2 no-padding-superior grid peq-col-1 med-col-2 col-2">
+                <a href="https://www.dhl.com/es-es/home/supply-chain.html" target="_blank"><img class="footer_main-img fim2" src="img/Companies/Dhl_logo.png" alt="DHL"></a>
+                <a href="https://www.id-logistics.com/es/" target="_blank"><img class="footer_main-img fim2" src="img/Companies/IDLogistics.jpeg" alt="Infolog"></a>
+            </main>
+        </div>
+        <div class="footer_footer2 contenido_EN" style="display: none;">
+            <header class="footer_header no-margen-inferior">
+                Visit my profiles:
             </header>
             <main class="footer_main fm2 no-padding-superior grid peq-col-1 med-col-2 col-2">
                 <a href="https://www.linkedin.com/in/jose-luis-perez-ariza-a14b4944/" target="_blank"><img class="footer_main-img" src="img/Linkedin-Logo-2003_1.png" alt="LinkedIn"></a>
