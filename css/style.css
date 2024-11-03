@@ -30,13 +30,31 @@
     text-shadow : var(--color-terciario) 2px 1px 2px;
 }
 
-#language-image{
-    border: 1px solid black;
-    box-shadow: 3px 4px 5px grey;
+
+.navibar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background:     #252525;
+    box-shadow  : grey 2px 2px 6px;
 }
 
 nav{
-    box-shadow  : grey 2px 2px 6px;
+    width: 90%;
+    /*box-shadow  : grey 2px 2px 6px;*/
+}
+
+#language-toggle{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -120px;
+    margin-left: -30px;
+}
+
+#language-image{
+    border: 1px solid black;
+    /*box-shadow: 3px 4px 5px grey;*/
 }
 
 .contenido_EN {
@@ -145,6 +163,17 @@ nav{
     
     .header_title-h1{
         font-size   : 130px;
+    }
+
+    nav{
+        max-width: 95%;
+    }
+    
+    #language-toggle{
+        width: 5%;
+        position:static;
+        margin-top: 0px;
+        margin-left: 0px;
     }
 
     .hide_menu_option{
