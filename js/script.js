@@ -82,6 +82,20 @@ contact_by_mail.addEventListener('click', (event) => {
     link.click();
 });
 
+const contact_by_mail_EN = document.getElementById('MailME_EN');
+
+contact_by_mail_EN.addEventListener('click', (event) => {
+    event.preventDefault(); // Evita el envío del formulario por defecto
+
+    // Aquí puedes personalizar la dirección de correo electrónico y el cuerpo del mensaje
+    const mailtoLink_EN = `mailto:joseluisperezariza@gmail.com`;
+
+    // Crea un enlace y simúla un clic para abrir el cliente de correo
+    const link = document.createElement('a');
+    link.href = mailtoLink_EN;
+    link.click();
+});
+
 const languageToggle = document.getElementById('language-toggle');
 const languageImage = document.getElementById('language-image');
 const contentES = document.querySelectorAll('.contenido_ES');
