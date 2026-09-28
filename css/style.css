@@ -10,7 +10,7 @@
         to bottom right,
         rgba(248, 248, 248, 0.9),
         rgb(12, 12, 12, 0.3)), url(../img/Header_professional2.png); 
-    background-size     : cover;
+    
     display             : flex;
     flex-direction      : column;
     justify-content     : space-between;
@@ -163,6 +163,10 @@ nav{
     .header_header{
         width       : 100%;
         min-height  : 100vh;
+        background-image    : linear-gradient(
+        to bottom right,
+        rgba(248, 248, 248, 0.9),
+        rgb(12, 12, 12, 0.3)), url(../img/Header_professional2.png);
     }
     
     .header_title-h1{
